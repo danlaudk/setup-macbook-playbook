@@ -3,9 +3,9 @@
   hosts: all
 
   roles:
-    - initialize
-    - terminal
+#    - initialize
+#    - terminal
     - languages
-    - databases
+#    - databases
     - webdev
     - caskapps

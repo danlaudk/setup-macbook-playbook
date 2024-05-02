@@ -38,9 +38,7 @@
     - initialize
 
 - name: Generate SSH Key
-  shell: "yes y | ssh-keygen -t rsa -b 4096 -C '{{ inventory_hostname }}' -N '' -f $HOME/.ssh/id_rsa"
-  args:
-    warn: false
+  shell: "yes y | ssh-keygen -t rsa -b 4096 -C '{{inventory_hostname}}' -N '' -f $HOME/.ssh/id_rsa"
   tags:
     - initialize
 

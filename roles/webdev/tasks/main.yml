@@ -1,13 +1,4 @@
 ---
-- name: install helpful packages
-  homebrew:
-    name: [
-      "nginx",
-      "graphviz",
-    ]
-    state: present
-  tags:
-    - webdev
 
 - name: install python packages
   homebrew:
@@ -26,7 +17,7 @@
 - name: install Node and yarn
   homebrew:
     name: [
-      "node@12",
+      "node@18",
       "yarn",
     ]
     state: present

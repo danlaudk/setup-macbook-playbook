@@ -14,17 +14,23 @@
     install_options: "appdir=$HOME/Applications/"
   with_items:
     - "slack"
-    - "skype"
     - "visual-studio-code"
     - "postman"
     - "github"
     - "brave-browser"
-    - "google-drive-file-stream"
     - "google-chrome"
-    - "spotify"
     - "dbvisualizer"
-    - "lastpass"
-    - "workplace-chat"
+    - "zoom" 
+    - "firefox" 
+    - "docker" 
+    - "calibre" 
+    - "vlc" 
+    - "intellij-idea-ce" 
+    - "parallels"
+    - "bbedit" 
+    - "flycut"
+    - "signal"
+    - "ferdium" 
   tags:
     - caskapps
 
