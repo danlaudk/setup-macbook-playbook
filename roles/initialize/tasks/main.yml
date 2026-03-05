@@ -1,6 +1,6 @@
 ---
 - name: install homebrew
-  shell: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  shell: /bin/bash -c "$(sudo curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   tags:
     - initialize
 
@@ -10,7 +10,6 @@
     state: present
   with_items:
     - "homebrew/services"
-    - "homebrew/cask"
     - "heroku/brew"
   tags:
     - initialize
@@ -20,7 +19,7 @@
     name: [
       "wget",
       "gcc",
-      "openssl",
+      "openssl@3",
       "cmake",
       "git",
       "git-lfs",
@@ -32,6 +31,20 @@
       "pigz",
       "tree",
       "heroku",
+      "azure-cli",
+      "bash",
+      "circleci",
+      "coreutils",
+      "exiftool",
+      "ffmpeg",
+      "flyscrape",
+      "gnutls",
+      "helm",
+      "k3d",
+      "kind",
+      "kubernetes-cli",
+      "minikube",
+      "ripgrep",
     ]
     state: present
   tags:

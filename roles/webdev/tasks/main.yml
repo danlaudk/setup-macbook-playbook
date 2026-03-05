@@ -9,6 +9,10 @@
       "pyenv-virtualenvwrapper",
       "autopep8",
       "flake8",
+      "python-packaging",
+      "python@3.12",
+      "python@3.13",
+      "uv",
     ]
     state: present
   tags:

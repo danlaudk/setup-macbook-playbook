@@ -24,6 +24,8 @@
       "nmap",
       "htop",
       "tmux",
+      "fzf",
+      "ncdu",
     ]
     state: present
   tags:
