@@ -1,0 +1,28 @@
+    1  brew install --cask karabiner-elements
+    2  brew install --cask flux
+    3  open .
+    4  which karabiner-elements
+    5* mkdir repos
+    6* cd repos
+    7* ls
+    8* cd Library
+    9* ls
+   10* xcode
+   11* brew install --cask windscribe
+   12* cd ..
+   13* ls
+   14* cd repos
+   15* ls
+   16* git clone https://kpn@dev.azure.com/kpn/Data%20Integration%20and%20Trust/_git/ishare-custom
+   17* cd ishare-custom
+   18* git checkout jwt-python-serverpostman 
+   19* cd jwt-python
+   20* ls
+   21* venv
+   22* virtualenv
+   23* python -m venv jwt-venv-crypto
+   24* python3 -m venv jwt-venv-crypto
+   25* source jwt-venv-crypto/bin/activate
+   26  ls
+
+rancher-desktop - https://github.com/rancher-sandbox/rancher-desktop/issues/1209#issuecomment-1370181132
